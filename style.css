@@ -40,7 +40,7 @@ main {
     background-color: var(--grayinshdark);
     border-radius: 1rem;
     min-height: 15vh;
-    min-width: 60vh;
+    max-width: 60vh;
     position: relative;
 
 }
@@ -94,7 +94,7 @@ main {
     }
 
     .advice-card {
-        min-width: 49vh;
+        max-width: 120vh;
     }
 }
 
