@@ -20,12 +20,3 @@ document.querySelector("#refresh-button").addEventListener("click", function (ev
     rotation++;
     fetchText();
 });
-
-// Reikia padaryt ir gaut data is API greiciau, nes dabar yra await timeout.
-
-// fetch('https://api.adviceslip.com/advice').then(response => response.json()).then(data => console.log(data));
-
-
-
-
-
